@@ -47,7 +47,7 @@ public class SpringExampleApplication {
 	public static String hello(@RequestParam(value = "gf", defaultValue = "test") String name) {
 
 		//String keyValue = env.getProperty(app.);
-		System.out.println("${server.port}");
+		//System.out.println("${server.port}");
 		//ResponseBody.class.toString() = "fgdf";
 		return "Hello";
 	}
