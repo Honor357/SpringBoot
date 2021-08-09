@@ -33,11 +33,12 @@ git push -uf origin main
 
 ## Test and Deploy
 
-Use the built-in continuous integration in GitLab.
+для деплоя использовать команды 
+mvn clean
+mvn package
 
-- [ ] [Get started with GitLab CI/CD](https://gitlab.com/-/experiment/new_project_readme_content:a8b4daaae84dfc627a9b2b3c40923ca2?https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://gitlab.com/-/experiment/new_project_readme_content:a8b4daaae84dfc627a9b2b3c40923ca2?https://docs.gitlab.com/ee/user/application_security/sast/)
-
+Затем для запуска
+java -jar 
 ***
 
 # Editing this README
