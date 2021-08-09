@@ -129,7 +129,7 @@ public class SpringExampleApplication {
 	}
 
 	//Вывод ответа json с динамическим параметром, требует параметра с именем Name, отдает ответ в формате json с типом json + задержка
-	тип post, требует тело запроса
+	//тип post, требует тело запроса
 	@Async
 	@PostMapping(value = "/hello/man2",produces = MediaType.APPLICATION_XML_VALUE)
 	public String hellomanPost(@RequestParam String name, @RequestBody String bod) throws InterruptedException {
